@@ -1,0 +1,15 @@
+{
+    "Pepperoni": {
+        "price": 10,
+        "stock": 0
+    },
+    "Hawaiian": {
+        "price": 10,
+        "stock": 0
+    },
+    "Cheese": {
+        "price": 10,
+        "stock": 0
+    }
+
+}

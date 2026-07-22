@@ -5,5 +5,10 @@
 {% block content %}
 <body>
     <h1>Home Page</h1>
+    <ul>
+            {% for pizza, details in pizzas.items() %}
+            <li>{{ pizza }} - ${{ details['price'] }} (Stock: {{ details['stock'] }})</li>
+            {% endfor %}
+        </ul>
 </body>
 {% endblock %}
